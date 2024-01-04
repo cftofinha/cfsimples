@@ -1,4 +1,4 @@
-﻿<cfapplication name= "cfsimples" 
+﻿<cfapplication name= "testes" 
     sessiontimeout="#CreateTimeSpan(0,0,10,0)#" 
     applicationtimeout=#CreateTimeSpan(1,0,0,0)#>
 
@@ -6,4 +6,4 @@
 <cfset setEncoding("URL", "UTF-8") />
 <cfset setEncoding("FORM", "UTF-8") />
 
-<cfset application.txtBemVindo = "Bem vindo " />
+<cfset variables.nome = "Lucas" />
