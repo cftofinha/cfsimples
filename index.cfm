@@ -10,7 +10,7 @@
     </h1>
 </cfoutput>
 
-<cfdump var="#server.lucee.version#" label="Versão do Lucee">
+<cfdump var="#cgi#" label="Versão do Lucee">
 
 <cfdump var="#session#" label="DUMP do escopo CGI">
 
